@@ -1,0 +1,82 @@
+name: tiatrotv
+description: Tiatro TV APP
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  font_awesome_flutter: ^10.5.0
+  cached_network_image: ^3.3.0
+  responsive_sizer: ^3.2.0
+  google_fonts: ^6.1.0
+  flutter_rating_bar: ^4.0.1
+  readmore: ^2.2.0
+
+  #Logic
+  azul_envato_checker: ^0.0.1+11
+  flutter_bloc: ^8.1.3
+  get: ^4.6.6
+  intl: ^0.18.1
+  get_storage: ^2.1.1
+  url_launcher: ^6.1.14
+
+  #M3U
+  m3u_nullsafe: ^1.0.4
+  flutter_vlc_player: ^7.4.0
+  pod_player: ^0.2.1
+
+  #Http
+  dio: ^5.3.3
+  google_mobile_ads: ^3.0.0
+  network_info_plus: ^5.0.0
+  wakelock_plus: ^1.1.1
+  win32: ^5.0.9
+
+  permission_handler: ^11.0.1
+  http: ^1.1.0
+  dartz: ^0.10.1
+  wifi_iot: ^0.3.18+1
+  inner_shadow_widget: ^0.0.3
+  getbloc: ^1.2.0
+  
+  shimmer: ^3.0.0
+  internet_connection_checker: ^1.0.0+1
+  appinio_video_player: ^1.2.2
+  chewie: ^1.7.1
+  video_player: ^2.7.2
+  
+  flutter_native_splash: ^2.3.3
+  
+  flutter_staggered_animations: ^1.1.1
+  # remote controll
+  sentry: ^7.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  flutter_lints: ^2.0.0
+  change_app_package_name: ^1.1.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/file/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo/Cairo-Bold.ttf
+          weight: 700
